@@ -15,8 +15,10 @@ public class ProjetoDTO {
     private String keyword2;
     private String keyword3;
     private String urlDocumento;
+    private Integer professorId;
     private Professor professor;
-    private List<Aluno> alunos;
+    private List<Integer> alunosId;
+    List<Aluno> alunos;
 
     public ProjetoDTO(Projeto projeto) {
         this.id = projeto.getId();
