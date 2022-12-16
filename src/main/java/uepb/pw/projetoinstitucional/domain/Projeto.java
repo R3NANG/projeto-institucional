@@ -40,5 +40,5 @@ public class Projeto {
     private Professor professor;
 
     @OneToMany()
-    private List<Aluno> aluno;
+    private List<Aluno> alunos;
 }
